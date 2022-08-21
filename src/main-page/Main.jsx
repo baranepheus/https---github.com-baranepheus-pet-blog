@@ -1,7 +1,16 @@
 import React from 'react'
+import maindogpic from '../img/main-dog.png'
 
 export default function Main (){
     return(
-        <h1>Main Section goes here</h1>
+        <>
+            <section className='main-section'>
+                <div className='main-text'>
+                    <p>Welcome</p>
+                    <h1>I'm Winter</h1>
+                    <h2>I hope you enjoy your stay here</h2>
+                </div>
+            </section>
+        </>
     )
 }
