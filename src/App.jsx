@@ -2,14 +2,16 @@ import React from 'react'
 import Navbar from './main-page/Navbar'
 import Main from './main-page/Main'
 import './App.css'
+import DogCard from './components/DogCard'
+import IntroPage from './main-page/IntroPage'
 
-function App() {
+export default function App() {
   return (
     <div>
       < Navbar />
       < Main />
+      < IntroPage />
+  
     </div>
   )
 }
-
-export default App

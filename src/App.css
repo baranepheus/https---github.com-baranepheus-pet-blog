@@ -104,3 +104,45 @@ a:hover::after{
     border: 3px solid #73AD21;
 }
 
+/* Dog Card */
+.summer-pic{
+    border-radius: 20%;
+    width: 350px;
+}
+
+.dogcard--text{
+    text-align: center;
+}
+
+/*Intro Card Div*/
+.intropage--div{
+    background-image: url("./img/plain-bg.png");
+    background-size:cover;
+    background-position:center;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    height: 100vh;
+    width: 100%; 
+}
+
+.intro--title{
+    text-align: center; 
+}
+
+.card--div{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    margin-bottom: 100px;
+
+}
+
+.intro--title{
+    margin-bottom: 50px;
+    font-size: 50px;
+}
+
