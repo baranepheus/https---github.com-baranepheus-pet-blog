@@ -1,6 +1,6 @@
-import React from 'react'
-import DogCard from '../components/DogCard'
-import dogData from '../dataObjects/dogData'
+import React from 'react';
+import DogCard from '../components/DogCard';
+import dogData from '../dataObjects/dogData';
 
 export default function IntroPage(){
     const dataDog = dogData.map(item => {

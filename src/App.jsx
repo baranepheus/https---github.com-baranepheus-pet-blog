@@ -1,17 +1,22 @@
 import React from 'react'
-import Navbar from './main-page/Navbar'
-import Main from './main-page/Main'
-import './App.css'
-import DogCard from './components/DogCard'
-import IntroPage from './main-page/IntroPage'
+import MainPage from './MainPage'
+import Notes from './Notes'
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+
 
 export default function App() {
   return (
-    <div>
-      < Navbar />
-      < Main />
-      < IntroPage />
-  
-    </div>
+
+    <Router>
+        <Routes>
+            <Route exact path='/' element={<MainPage />} />
+            <Route exact path='/notes' element={<Notes />} />
+        </Routes>
+    </Router>
+
+    // <>
+    //   <MainPage />
+    //   <Notes />
+    // </>
   )
 }
